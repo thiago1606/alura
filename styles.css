@@ -1,0 +1,59 @@
+body{
+    background: rgba(247, 40, 8, 0.993);
+color: rgb(1, 0, 7);
+margin: 0px;
+font-family: "Bebas Neue", sans-serif; 
+margin-bottom: 100px;
+}
+
+header{
+    border-bottom:solid 5px rgb(254, 253, 253);
+    padding: 10px;
+    font-size: 30px;
+color: rgb(249, 249, 250);
+}
+
+.chamada{
+
+background-color: black;
+color: rgb(252, 252, 250);
+padding-bottom: 20px;
+padding-top: 20px;
+display: flex;
+justify-content: center;
+}
+.chamada-texto{
+    margin: 3%
+}
+
+h1{
+    font-size: 50px;
+    padding: 0px;
+}
+
+p{
+    font-size: 30px;
+    margin: 0px;
+}
+
+.categoria-videos {
+display: flex;
+overflow-x: auto;
+gap: 5px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-videos img:hover{
+    opacity:1.0 ;
+    border: 3px solid rgb(248, 248, 250);
+}
+ 
